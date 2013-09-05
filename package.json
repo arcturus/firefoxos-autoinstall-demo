@@ -1,0 +1,18 @@
+{
+  "name": "autoinstall-server",
+  "version": "0.0.1",
+  "author": "Francisco Jordano <francisco@jordano.es>",
+  "description": "PoC of remote app installation in Firefox OS",
+  "scripts": {
+    "start": "node ./bin/start"
+  },
+  "dependencies" : {
+    "express": "*",
+    "mongoq": "*",
+    "request": "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
